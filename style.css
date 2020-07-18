@@ -1,0 +1,83 @@
+body {
+  background-color: #fde74c;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  padding: 50px;
+  color: #111;
+  font-family: sans-serif;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+.colorOne {
+  background-color: #9bc53d;
+  color: #000;
+}
+
+.colorTwo {
+  background-color: #fff;
+  color: #000;
+}
+
+#mainContent {
+  width: 420px;
+  margin: 0 auto;
+}
+
+#mainContent p {
+  padding: 20px;
+}
+
+#mainContent #firstBox {
+  font-weight: bold;
+  -webkit-transform: translate3d(-30px, 0, 0);
+          transform: translate3d(-30px, 0, 0);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  opacity: 0;
+}
+
+#mainContent #firstBox.active {
+  background-color: #333;
+  color: #fff;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+#mainContent #secondBox {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: translate3d(0, 30px, 0);
+          transform: translate3d(0, 30px, 0);
+  opacity: 0;
+}
+
+#mainContent #secondBox.active {
+  background-color: #1581af;
+  color: #fff;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+#mainContent ol li {
+  padding-left: 7px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: translate3d(20px, 0, 0);
+          transform: translate3d(20px, 0, 0);
+  opacity: 0;
+}
+
+#mainContent ol li.active {
+  -webkit-transform: translate3d(0px, 0, 0);
+          transform: translate3d(0px, 0, 0);
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
